@@ -1,0 +1,16 @@
+keywords:
+int
+float
+if
+
+operators:
++
+-
+=
+>
+<
+
+punctuators:
+;
+(
+)
