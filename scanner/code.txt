@@ -1,0 +1,5 @@
+// Тестовый код
+int x = 10 ;
+int y = 15 ;
+float z = -3.14 ;
+"hello" if ( x > y )
