@@ -22,35 +22,58 @@
 Пример:
 
   Файл keywords:
+
 keywords:
+
 int
+
 float
+
 if
 
 operators:
+
 +
+
 -
+
 =
+
 >
+
 <
 
 punctuators:
+
 ;
+
 (
+
 )
 
+
   Файл code.txt
+
 // Тестовый код
+
 int x = 10 ;
+
 int y = 15 ;
+
 float z = -3.14 ;
+
 "hello" if ( x > y )
 
   Файл code_without_comments.txt
+
 int x = 10 ;
+
 int y = 15 ;
+
 float z = -3.14 ;
+
 "hello" if ( x > y )
 
   Файл tokens.txt
+
 kiocpkiocpkiocpskpioip
