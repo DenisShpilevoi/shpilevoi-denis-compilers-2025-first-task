@@ -34,21 +34,15 @@ if
 operators:
 
 +
-
 -
-
 =
-
 >
-
 <
 
 punctuators:
 
 ;
-
 (
-
 )
 
 
