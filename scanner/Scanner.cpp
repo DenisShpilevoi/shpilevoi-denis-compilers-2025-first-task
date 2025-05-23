@@ -2,6 +2,8 @@
 #include <fstream>
 #include <map>
 
+
+
 bool isNumber(const std::string& token) {
     if (token.empty()) return false;
     size_t start = 0;
@@ -59,13 +61,10 @@ void processToken(const std::string& token, std::ofstream& outFile, std::map<std
     std::cerr << "Неизвестный токен: " << token << std::endl;
 }
 
-
-
-
 int main() {
 
-    std::ifstream inFile("code.cpp");
-    std::ofstream outFile("code_without_comments.cpp");    
+    std::ifstream inFile("code.txt");
+    std::ofstream outFile("code_without_comments.txt");    
 
     bool in_block_comment = false;
     std::string line;
